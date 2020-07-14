@@ -24,15 +24,14 @@ public class SyncProducer {
         producer.start();
         for (int i = 0; i < 3000; i++) {
             // 创建消息对象，指定主体 Topic、Tag 和消息体
-            Message message = new Message("base2", "Tag1", ("Hello World" + i).getBytes());
+            Message message = new Message("base2", "Tag1", ("Sync Msg index = " + i).getBytes());
             // 发送消息
             SendResult result = producer.send(message);
             // 发送状态、ID以及接受消息的队列的ID
             SendStatus status = result.getSendStatus();
             String msgId = result.getMsgId();
             int queueId = result.getMessageQueue().getQueueId();
-            System.out.println("发送状态： " + status + " 消息ID： " + msgId + " 队列： " + queueId);
-
+            System.out.println("发送状态： " + status + " 索引ID： " + i + " 消息ID： " + msgId + " 队列： " + queueId);
 //            TimeUnit.SECONDS.sleep(1);
         }
         // 关闭 producer

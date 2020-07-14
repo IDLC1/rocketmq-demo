@@ -23,7 +23,7 @@ public class AsyncProducer {
         for (int i = 0; i < 300; i++) {
             final int index = i;
             // 创建消息，并指定Topic，Tag和消息体
-            Message msg = new Message("base2", "Tag1", ("Hello World" + i).getBytes());
+            Message msg = new Message("base2", "Tag3", ("Async Msg index = " + i).getBytes());
             producer.send(msg, new SendCallback() {
                 public void onSuccess(SendResult sendResult) {
                     System.out.println("发送结果：" + sendResult);
@@ -34,9 +34,9 @@ public class AsyncProducer {
 //                    e.printStackTrace();
                 }
             });
-
+            TimeUnit.SECONDS.sleep(1);
         }
-        Thread.sleep(100000);
+//        Thread.sleep(100000);
         // 如果不再发送消息，关闭Producer实例。
         producer.shutdown();
     }

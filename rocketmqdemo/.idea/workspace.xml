@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b277be62-7a77-476d-a333-91240984ef21" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="b277be62-7a77-476d-a333-91240984ef21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/rocketmqdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/base/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/delay/ScheduledMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/delay/ScheduledMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/fileaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/order/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/order/OrderStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/order/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/base/producer/AsyncProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/base/producer/AsyncProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/base/producer/SyncProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/mq/rocketmq/base/producer/SyncProducer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -24,34 +41,37 @@
     </option>
   </component>
   <component name="ProjectId" id="1drRkusCMAFv6vdmdfEfhZlkxko" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../dubboDemos2/boot-dubbo/boot-dubbo-common-interface" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\project\rocketmq\rocketmq-demo\rocketmqdemo\src\main\java\com\tom\mq\rocketmq\order" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SyncProducer">
-    <configuration name="AsyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.base.producer.AsyncProducer" />
-      <module name="rocketmq-demo" />
+  <component name="RunManager" selected="Application.fileaa">
+    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.order.Consumer" />
+      <module name="rocketmqdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tom.mq.rocketmq.base.producer.*" />
+          <option name="PATTERN" value="com.tom.mq.rocketmq.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.base.producer.SyncProducer" />
-      <module name="rocketmq-demo" />
+    <configuration name="Consumer" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.base.consumer.Consumer" />
+      <module name="rocketmqdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tom.mq.rocketmq.base.producer.*" />
+          <option name="PATTERN" value="com.tom.mq.rocketmq.base.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,10 +92,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.order.Producer" />
+      <module name="rocketmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.mq.rocketmq.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduledMessageConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.delay.ScheduledMessageConsumer" />
+      <module name="rocketmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.mq.rocketmq.delay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScheduledMessageProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.delay.ScheduledMessageProducer" />
+      <module name="rocketmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.mq.rocketmq.delay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tom.mq.rocketmq.fileaa" />
+      <module name="rocketmqdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tom.mq.rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer (1)" />
+      <item itemvalue="Application.ScheduledMessageProducer" />
+      <item itemvalue="Application.ScheduledMessageConsumer" />
+      <item itemvalue="Application.fileaa" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncProducer" />
-        <item itemvalue="Application.AsyncProducer" />
+        <item itemvalue="Application.fileaa" />
+        <item itemvalue="Application.ScheduledMessageConsumer" />
+        <item itemvalue="Application.ScheduledMessageProducer" />
+        <item itemvalue="Application.Consumer (1)" />
+        <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
   </component>
@@ -96,11 +179,89 @@
       <workItem from="1593228898099" duration="6376000" />
       <workItem from="1593438980111" duration="288000" />
       <workItem from="1593508102634" duration="9343000" />
+      <workItem from="1593565597559" duration="9197000" />
+      <workItem from="1593655312850" duration="3334000" />
+      <workItem from="1594086105205" duration="223000" />
+      <workItem from="1594462258698" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2387" y="69" key="#AsyncProducer" timestamp="1593566735536">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2387" y="69" key="#AsyncProducer/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593566735536" />
+    <state x="2387" y="69" key="#SyncProducer" timestamp="1593565680942">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2387" y="69" key="#SyncProducer/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593565680942" />
+    <state x="2143" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593568245838">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2143" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593568245838" />
+    <state x="2494" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1593570958910">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2494" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593570958910" />
+    <state width="406" height="466" key="DebuggerActiveHint" timestamp="1593655461146">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="406" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655461146" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1594689173305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1594689173305" />
+    <state x="2469" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593582635330" />
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1593669308588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308588" />
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655890396" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1593669308588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308588" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655890396" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1593669308588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308588" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655890395" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1593669308588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308588" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655890396" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593669308571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655542413" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593669308571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655542413" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593669308571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655542412" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593669308571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593669308571" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593655542413" />
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593567179764">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2351" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1536.824@1920.0.1536.824" timestamp="1593567179764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
